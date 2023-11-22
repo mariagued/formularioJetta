@@ -1,0 +1,141 @@
+html{
+    margin: 2rem;
+    font-size: 1.2rem;
+    background-color: #f7f7f7;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-transform: uppercase;
+    color:#424040;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1rem;
+
+}
+
+h2{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+h3{
+
+    font-size: 1em;
+    line-height: 1.2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: #424040;
+}
+
+small{
+    margin-left: 5rem;
+    margin-right: 5rem;    
+}
+
+#linkJetta{
+    font-style: italic;
+    color: rgb(21, 52, 99);
+}
+
+#imgJetta{
+    margin-top: 1.5rem;
+    width: 80vw;
+    border-radius: 46% 54% 29% 71% / 35% 61% 39% 65% ;    
+}
+
+strong{
+    font-size: 1.10em;
+    color: #00a249;
+    text-decoration: underline;
+}
+
+form{
+    width: 80vw;
+    
+}
+
+fieldset{
+    border-radius: 2rem; 
+    padding-bottom: 2rem;
+
+}
+
+legend{
+    text-transform: uppercase;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    display: block;
+    margin-top: 1rem;
+    pointer-events: auto;
+}
+
+input{
+    width: 100%;
+    border-radius: 0.6em;
+    color: #2f2e2e;
+    margin-top: 1em;
+    height: 2rem;
+}
+
+.inputValores{
+    width: 20%;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-family:'Arial Narrow Bold', sans-serif;
+    background-color: #ced6c3;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+footer{
+    text-align: center;
+}
+
+#textFooter{
+    font-family: 'calibri';
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.imgRedes{
+    margin-bottom: 1rem;
+    margin-top: 0.6rem;
+    margin-right: 2rem;
+    width: 2rem;
+    display: inline;
+}
